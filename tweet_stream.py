@@ -7,10 +7,10 @@ import json
 import sentiment_mod as s
 
 #consumer key, consumer secret, access token, access secret.
-ckey="MROK32neWVKqIlC0pRIx5qbXp"
-csecret="jEe66g5EtigmmDCT84fv5hBSjsbbMiVTSbtzrVu6fQLuRjCksl"
-atoken="782522413-s8VnYEv4Wcnh7e0ZiI7PsKHavn0yjS5uaHgeHBWe"
-asecret="DqfsK9D4Redi0rvNkdnc8oDX70npNiOAXdog1eFFY0eHz"
+ckey="alsdhfouwelfhasdfslakdfhp"
+csecret="jEe66g5EtigmmDCT84fv5hBSsdfsadf"
+atoken="2312-dslhfshadf;lhsd;lfhlsd"
+asecret="fjasgdfaweifhsdgflkasd"
 
 class listener(StreamListener):
 
@@ -38,4 +38,4 @@ auth = OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
 
 twitterStream = Stream(auth, listener())
-twitterStream.filter(track=["Trump"])
+twitterStream.filter(track=["Trump"])                              
